@@ -15,7 +15,8 @@ This ensures regular, reliable, hands-free backups without manual work.
 
 * Reduce manual effort and prevent human error.
 
-Architecture
+#### Architecture: 
+EBS Volume → Lambda Function → EventBridge Trigger → SNS Email Notification
   
 ### Step 1: Create a Lambda Function
 * Open AWS Lambda console -> Click create function -> Author from scratch
